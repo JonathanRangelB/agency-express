@@ -3,4 +3,27 @@ extends ./layout/index
 block contenido
     main.container.mt-5 
         .row 
-            h1= pagina
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="nosotros", class="img-fluid")
+            .col-md-7
+                h1= pagina
+                blockquote Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam consequatur voluptate aspernatur aliquid labore, quisquam atque temporibus iste id rerum accusantium tempora cumque commodi in praesentium quo cum, nam adipisci quidem omnis quas dolores quibusdam? Maxime, quae, dolorum fugiat voluptas eos dolores incidunt ratione, autem iusto voluptatem quos. Temporibus, et?
+
+                p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam animi modi provident consectetur aliquid enim beatae saepe corrupti itaque! Dignissimos ratione optio rem, sequi nemo nostrum beatae consectetur deserunt, voluptate, quam expedita aliquid? Hic, ab.
+
+                p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque consequatur odio iure eum quidem tempore nisi ipsam blanditiis voluptates corporis at, possimus accusamus necessitatibus eveniet in vitae ducimus voluptas harum saepe quisquam aliquam. Rem, labore.
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="")
+                    h2.mb-4 Seguridad 
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio id corrupti quas quibusdam? Mollitia dolor sunt quaerat similique tempore.
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="")
+                    h2.mb-4 Destinos
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio id corrupti quas quibusdam? Mollitia dolor sunt quaerat similique tempore.
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class="")
+                    h2.mb-4 Precios
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio id corrupti quas quibusdam? Mollitia dolor sunt quaerat similique tempore.
